@@ -1,0 +1,32 @@
+{
+  "url": "http://localhost:8080/",
+  "timestamp": "2025-09-15T00:15:34.617Z",
+  "totals": {
+    "addEventListener": 3,
+    "inlineHandlers": 0
+  },
+  "addEventListener": [
+    {
+      "type": "input",
+      "target": "INPUT",
+      "selector": "input#email.form",
+      "options": {},
+      "ts": 1757895333747
+    },
+    {
+      "type": "keydown",
+      "target": "TEXTAREA",
+      "selector": "textarea#notes.form.box",
+      "options": {},
+      "ts": 1757895333747
+    },
+    {
+      "type": "paste",
+      "target": "window",
+      "selector": "(unknown)",
+      "options": {},
+      "ts": 1757895333747
+    }
+  ],
+  "inlineHandlers": []
+}

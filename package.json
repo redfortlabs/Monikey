@@ -1,0 +1,13 @@
+{
+  "name": "monikey",
+  "version": "0.1.0",
+  "description": "Phase 1: detect key/input event listeners on visited sites.",
+  "main": "detect.js",
+  "type": "commonjs",
+  "scripts": {
+    "scan": "node detect.js",
+    "test": "echo \"OK\" && exit 0",
+    "serve": "node server.js",
+    "cli": "node cli.js"
+  }
+}

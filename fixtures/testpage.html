@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>MoniKey Fixture</title>
+    <style>body{font-family:system-ui;margin:2rem}</style>
+  </head>
+  <body>
+    <h1>MoniKey Test Fixture</h1>
+    <input id="email" class="form" placeholder="Type here…" />
+    <textarea id="notes" class="form box" placeholder="And here…"></textarea>
+    <form id="demo"><button type="submit">Submit</button></form>
+
+    <script>
+      // addEventListener-based
+      document.getElementById('email').addEventListener('input', () => {});
+      document.getElementById('notes').addEventListener('keydown', () => {});
+      window.addEventListener('paste', () => {});
+      // inline handler
+      document.getElementById('demo').onsubmit = function(e){ e.preventDefault(); };
+    </script>
+  </body>
+</html>
