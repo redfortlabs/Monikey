@@ -2,11 +2,3 @@ node_modules/
 .env
 .DS_Store
 __pycache__/
-
-# MoniKey artifacts
-reports/
-npm-debug.log*
-
-# Ignore reports
-reports/
-
