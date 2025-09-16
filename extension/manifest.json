@@ -3,13 +3,11 @@
   "name": "MoniKey Detector",
   "version": "0.1.0",
   "description": "Detects key/input event listeners on pages you visit and flags risky patterns.",
-  "icons": {
-    "16": "icons/16.png",
-    "32": "icons/32.png",
-    "128": "icons/128.png"
-  },
-  "permissions": [],
+  "permissions": ["storage", "scripting", "tabs"],
   "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
