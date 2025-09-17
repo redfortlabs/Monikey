@@ -54,22 +54,22 @@ Planned next steps:
 
 —-
 
-##Roadmap
+## Roadmap
 * Phase 1: Proof of concept (Puppeteer, reports).
 * Phase 2: MVP delivered (CLI, JSON, heuristics).
 * Phase 3: Expansion (cross-browser, scoring, dashboard, packaging).
 
 —-
 
-##License
+## License
 MIT — do whatever you want, but don’t use this to invade others’ privacy.
 
 —-
 
-##Disclaimer 
+## Disclaimer 
 MoniKey is for research and educational purposes only. Don’t use it to probe or monitor systems without explicit permission.
 
 —-
 
-##Contact
+## Contact
 This is a hobby home-lab project. If you find a bug, want to contribute, or have a defensive use case, open an issue or PR. — Tyler (MoniKey author)
